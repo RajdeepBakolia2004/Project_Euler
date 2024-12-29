@@ -35,22 +35,22 @@ void main() {
         you can comment one and check which one is better.*/
 
         //approach 1
-        /*
+        
         for (unsigned long long checker = 2; checker * checker <= number; checker++) {
             if (number % checker == 0) {
                 isPrime = false;
                 break;
             }
-        }*/
+        }
         //approach2
-        
+        /*
        int checker = 0;
        while (checker < pointer){
         if (number % primes[checker] == 0){
             isPrime = false;
         }
         checker++;
-       }
+       }*/
 
         //if it is prime add it to the prime and incrment pointer
         if (isPrime) {
